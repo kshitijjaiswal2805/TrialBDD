@@ -1,4 +1,4 @@
-package Runner;
+
 
 import org.junit.runner.RunWith;
 
@@ -8,7 +8,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features="/Users/KS20463914/eclipse-workspace/Trial/src/main/java/Feature/Google.feature"
+		features="/Users/KS20463914/eclipse-workspace/Trial/src/main/resources/Feature/Google.feature"
 		,glue= {"BindingsAndhooks"},
 		
 		monochrome = true,
